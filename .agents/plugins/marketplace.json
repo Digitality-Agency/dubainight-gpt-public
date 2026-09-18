@@ -1,0 +1,20 @@
+{
+  "name": "dubainight-public",
+  "interface": {
+    "displayName": "Dubainight Public"
+  },
+  "plugins": [
+    {
+      "name": "dubainight-reports",
+      "source": {
+        "source": "local",
+        "path": "./plugins/dubainight-reports"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

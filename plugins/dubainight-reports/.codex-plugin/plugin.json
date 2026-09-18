@@ -1,0 +1,25 @@
+{
+  "name": "dubainight-reports",
+  "version": "0.3.0",
+  "description": "Private staging reports for Dubai Night admins, with venue coverage, URLs and recorded website page views.",
+  "author": {
+    "name": "Dubai Night"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Dubai Night Reports [Staging]",
+    "shortDescription": "Read-only venue coverage and recorded page views.",
+    "longDescription": "Generate read-only reports from Dubai Night staging data for Dubai and Abu Dhabi. Find articles, events, offers and venue pages, inspect recorded page views and export a complete CSV. Requires an approved reporting account. Missing and partial metrics are clearly identified.",
+    "developerName": "Dubai Night",
+    "category": "Productivity",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Find all pages mentioning Amazonico in Dubai.",
+      "Show the top articles mentioning a venue by lifetime views.",
+      "Build a venue coverage report and export it as CSV."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
