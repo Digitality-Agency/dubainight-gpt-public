@@ -22,7 +22,7 @@ If `codex` is not on your Mac's PATH, use the executable bundled with ChatGPT:
 /Applications/ChatGPT.app/Contents/Resources/codex plugin add dubainight-reports@dubainight-public
 ```
 
-Open ChatGPT desktop, restart it if the new catalog is not visible, then open **Plugins** and find **Dubai Night Reports [Staging]**. Connect the reporting account, sign in through the browser, and approve read access. Return to desktop and start a new conversation.
+Open ChatGPT desktop, restart it if the new catalog is not visible, then open **Plugins** and find **Dubai Night Reports**. Connect the reporting account, sign in through the browser, and approve read access. Return to desktop and start a new conversation.
 
 If the connection prompt does not appear, start OAuth from Terminal:
 

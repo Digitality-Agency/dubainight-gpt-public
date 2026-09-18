@@ -7,7 +7,7 @@ description: Prepare Dubai Night admin reports about venue mentions, content cov
 
 ## Connection status
 
-This desktop plugin bundles the `dubainight-reports-staging` MCP connection. Reports use staging data for Dubai and Abu Dhabi, not production data. If the reporting tools are unavailable, ask the user to connect Dubai Night Reports [Staging] through the desktop plugin's OAuth sign-in and start a new conversation. Plugins with bundled MCP servers are currently unavailable on phones. Do not produce invented counts, sample results presented as real, or a fabricated CSV download.
+This desktop plugin bundles the `dubainight-reports-staging` MCP connection. Reports use staging data for Dubai and Abu Dhabi, not production data. If the reporting tools are unavailable, ask the user to connect Dubai Night Reports through the desktop plugin's OAuth sign-in and start a new conversation. Plugins with bundled MCP servers are currently unavailable on phones. Do not produce invented counts, sample results presented as real, or a fabricated CSV download.
 
 Use only the configured Dubai Night reporting service for factual reports. Do not substitute web searches, local databases, direct website API calls or unrelated connectors. Public pages cannot establish complete coverage, admin access or recorded counters. Reporting definitions and planned behavior can be explained without a connection.
 
