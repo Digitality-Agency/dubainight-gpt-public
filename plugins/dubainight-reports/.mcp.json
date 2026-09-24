@@ -1,8 +1,8 @@
 {
   "mcpServers": {
-    "dubainight-reports-staging": {
+    "dubainight-reports": {
       "type": "http",
-      "url": "https://reportsstaging-962650692270.europe-west1.run.app/mcp",
+      "url": "https://reportsproduction-962650692270.europe-west1.run.app/mcp",
       "oauth": {
         "callbackUrl": "http://127.0.0.1/callback"
       }

@@ -1,7 +1,7 @@
 {
   "name": "dubainight-reports",
-  "version": "0.3.0+codex.20260918132449",
-  "description": "Private staging reports for Dubai Night admins, with venue coverage, URLs and recorded website page views.",
+  "version": "0.3.0+codex.20260924120022",
+  "description": "Private production reports for Dubai Night admins, with venue coverage, URLs and recorded website page views.",
   "author": {
     "name": "Dubai Night"
   },
@@ -9,7 +9,7 @@
   "interface": {
     "displayName": "Dubai Night Reports",
     "shortDescription": "Read-only venue coverage and recorded page views.",
-    "longDescription": "Generate read-only reports from Dubai Night staging data for Dubai and Abu Dhabi. Find articles, events, offers and venue pages, inspect recorded page views and export a complete CSV. Requires an approved reporting account. Missing and partial metrics are clearly identified.",
+    "longDescription": "Generate read-only reports from Dubai Night production data for Dubai and Abu Dhabi. Find articles, events, offers and venue pages, inspect recorded page views and export a complete CSV. Requires an approved reporting account. Missing and partial metrics are clearly identified.",
     "developerName": "Dubai Night",
     "category": "Productivity",
     "capabilities": [

@@ -7,7 +7,7 @@ description: Prepare Dubai Night admin reports about venue mentions, content cov
 
 ## Connection status
 
-This desktop plugin bundles the `dubainight-reports-staging` MCP connection. Reports use staging data for Dubai and Abu Dhabi, not production data. If the reporting tools are unavailable, ask the user to connect Dubai Night Reports through the desktop plugin's OAuth sign-in and start a new conversation. Plugins with bundled MCP servers are currently unavailable on phones. Do not produce invented counts, sample results presented as real, or fabricated download links.
+This desktop plugin bundles the `dubainight-reports` MCP connection. Reports use production data for Dubai and Abu Dhabi. Always preserve the environment returned by the service. If the reporting tools are unavailable, ask the user to connect Dubai Night Reports through the desktop plugin's OAuth sign-in and start a new conversation. Plugins with bundled MCP servers are currently unavailable on phones. Do not produce invented counts, sample results presented as real, or fabricated download links.
 
 Use only the configured Dubai Night reporting service for factual reports. Do not substitute web searches, local databases, direct website API calls or unrelated connectors. Public pages cannot establish complete coverage, admin access or recorded counters. Reporting definitions and planned behavior can be explained without a connection.
 
@@ -93,4 +93,4 @@ Once status is complete or partial, present a concise client report with verifie
 
 Always include BOTH CSV and PDF browser_download_url links supplied by the service. New links download without another login. Anyone holding a link can download its one file until expiry, normally 15 minutes. If a link expires, use export_report for that existing report to refresh it; do not regenerate the report. If the client only supports CSV in export_report, get_report_status or search_coverage returns fresh links for both formats. The API download_url still requires authentication.
 
-There is no daily report quota. Staging accepts one active report at a time, at most 200 candidates and 20 minutes of processing. Respect busy and request-rate-limit errors; do not bypass them with another account or split requests automatically. Verified checks may be reused for one hour; preserve their original checked_at timestamps.
+There is no daily report quota. The service accepts one active report at a time, at most 200 candidates and 20 minutes of processing. Respect busy and request-rate-limit errors; do not bypass them with another account or split requests automatically. Verified checks may be reused for one hour; preserve their original checked_at timestamps.

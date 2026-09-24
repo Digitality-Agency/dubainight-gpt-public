@@ -2,7 +2,7 @@
 
 Install the Dubai Night reporting plugin in ChatGPT desktop. The package is public; report data is private and requires an approved Dubai Night reporting account.
 
-This version connects to **staging data** for Dubai and Abu Dhabi. It provides articles, events, offers, venue pages, source URLs, recorded page views and CSV exports. Missing metrics are reported as unavailable.
+This version connects to **production data** for Dubai and Abu Dhabi. It provides articles, events, offers, venue pages, source URLs, recorded page views and automatic CSV/PDF exports. Missing metrics are reported as unavailable.
 
 ## Install on desktop
 
@@ -27,20 +27,20 @@ Open ChatGPT desktop, restart it if the new catalog is not visible, then open **
 If the connection prompt does not appear, start OAuth from Terminal:
 
 ```sh
-codex mcp login dubainight-reports-staging
+codex mcp login dubainight-reports
 ```
 
 Use the same full executable path above if needed. Enter your password only on the reporting sign-in page, never in chat, commands or repository files.
 
 Try:
 
-> Generate an Amazonico Dubai report. Show article, event, offer and venue counts, recorded lifetime page views, and the top 5 articles with URLs. Clearly label staging data and unavailable metrics.
+> Generate an Amazonico Dubai report. Show article, event, offer and venue counts, recorded lifetime page views, and the top 5 articles with URLs. Clearly label production data and unavailable metrics.
 
 Then:
 
-> Export the complete report as CSV and give me the browser download link.
+> Give me both complete CSV and PDF download links.
 
-CSV links may require another sign-in with the same account that created the report. Generate a fresh report if its link has expired.
+Browser download links require no second sign-in and expire after 15 minutes. Ask the service to refresh expired links for the same report. References are validated from database content; generating a report does not visit website pages.
 
 ## Workspace installation
 
@@ -58,7 +58,7 @@ ChatGPT currently marks plugins with bundled MCP servers as **Desktop only**, in
 2. Add the catalog and install the plugin on desktop.
 3. Open the plugin and complete the browser login and read-access consent, keeping the password hidden.
 4. Start a new conversation and run the report prompt above.
-5. Request the CSV export and show the actual downloaded file.
+5. Open the CSV and PDF downloads.
 
 Use a fresh installation for a first-install video. An already installed and connected copy demonstrates reuse or reconnection instead.
 
